@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Domain Grouper",
+  "version": "1.0.0",
+  "description": "One click: collects all tabs that share a domain into a single page. Single tabs and your current tab are left alone.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Group tabs by domain"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
